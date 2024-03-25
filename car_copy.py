@@ -25,11 +25,17 @@ class Car:
         #update attributes to current attributes
         self.x += distance * math.sin(h)
         self.y -= distance * math.cos(h)
-
+   
+    #function to print "Hello"
     def PrintHello():
         message = print("Hello")
         return message
-        
+    
+    #function to print "Goodbye"
+    def PrintGoodbye():
+        message = print("Goodbye")
+        return message
+
 """sanity_check is outside of the Car() class
     because it is meant to be a stand alone function"""
 
